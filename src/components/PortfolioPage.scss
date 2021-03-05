@@ -34,21 +34,24 @@
           fill: transparent;
         }
       }
+    }
 
-      &:hover {
+    .link:hover {
+      color: #aaa;
+
+      .icon {
         animation: rotate infinite 1s ease-in-out;
-
         path {
           fill: #aaa;
         }
+      }
 
-        @keyframes rotate {
-          from {
-            transform: rotate(0deg);
-          }
-          to {
-            transform: rotate(360deg);
-          }
+      @keyframes rotate {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
         }
       }
     }

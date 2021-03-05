@@ -17,4 +17,9 @@ body {
   .button {
     cursor: grab;
   }
+
+  .horizontal-container {
+    display: flex;
+    align-items: center;
+  }
 }

@@ -33,12 +33,23 @@ export const PortfolioPage: React.FC = () => {
       <StaticTile className={'ContactsTile'}>
         <h2>Kontakt</h2>
 
-        <EmailIcon className={'icon button'}
-                   onClick={() => window.open('mailto:fschwander@gmx.ch', '_self')}/>
-        <GitIcon className={'icon button'}
-                 onClick={() => window.open('https://gitlab.fhnw.ch/FabianSchwander', '_blank')}/>
-        <LinkedInIcon className={'icon button'}
-                      onClick={() => window.open('https://www.linkedin.com/in/fabian-schwander/', '_blank')}/>
+        <div className={'link button horizontal-container'}
+             onClick={() => window.open('mailto:fschwander@gmx.ch', '_self')}>
+          <EmailIcon className={'icon'}/>
+          <p>E-Mail</p>
+        </div>
+
+        <div className={'link button horizontal-container'}
+             onClick={() => window.open('https://gitlab.fhnw.ch/FabianSchwander', '_blank')}>
+          <GitIcon className={'icon'}/>
+          <p>Git</p>
+        </div>
+
+        <div className={'link button horizontal-container'}
+             onClick={() => window.open('https://www.linkedin.com/in/fabian-schwander/', '_blank')}>
+          <LinkedInIcon className={'icon'}/>
+          <p>LinkedIn</p>
+        </div>
       </StaticTile>
     </TileContainer>;
   };
