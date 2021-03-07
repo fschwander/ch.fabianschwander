@@ -11,9 +11,19 @@ export const urlItems:Array<UrlItemsInterface> = [
     url: "http://work-life-aargau.fabianschwander.ch"
   },
   {
+    name: "Tavolata für innere Werte",
+    description: "Dinieren von Kopf bis Fuss an der Tavolata für innere Werte",
+    url: "http://innere-werte.ch"
+  },
+  {
     name: "Arbeiten von Michelle Akanji",
     description: "Audio-Feature, Artikel und Texte von Michelle Akanji",
     url: "http://michelleakanji.ch"
+  },
+  {
+    name: "Isabel Akanji",
+    description: "Yoga und Produkte aus den Bergen",
+    url: "http://isabelakanji.ch"
   },
   {
     name: "Das grosse Hofsterben",
@@ -24,16 +34,6 @@ export const urlItems:Array<UrlItemsInterface> = [
     name: "Modulplan für Studierende",
     description: "Interaktive Visualisierung des Studimsfortschritts. Konzept für die Fachhochschule Nordwestschweiz",
     url: "https://web0.fhnw.ch/modulvisualisierung/"
-  },
-  {
-    name: "Isabel Akanji",
-    description: "Yoga und Produkte aus den Bergen",
-    url: "http://isabelakanji.ch"
-  },
-  {
-    name: "Tavolata für innere Werte",
-    description: "Dinieren von Kopf bis Fuss an der Tavolata für innere Werte",
-    url: "http://innere-werte.ch"
   },
   {
     name: "Ponsyrus Genossenschaft",
