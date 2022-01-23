@@ -59,6 +59,7 @@ export const UrlTile: React.FC<UrlTileProps> = props => {
       <div className={'text-container'}>
         <h2>{data.name}</h2>
         <p>{data.description}</p>
+        <p>{data.tech}</p>
       </div>
     </div>
   );
