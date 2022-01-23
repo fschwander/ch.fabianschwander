@@ -5,6 +5,10 @@
   transition: .2s ease-out;
   position: relative;
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
   &:hover {
     transform: scale(1.02);
