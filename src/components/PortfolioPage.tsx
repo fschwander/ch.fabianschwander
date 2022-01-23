@@ -34,13 +34,13 @@ export const PortfolioPage: React.FC = () => {
         <h2>Kontakt</h2>
 
         <div className={'link button horizontal-container'}
-             onClick={() => window.open('mailto:fschwander@gmx.ch', '_self')}>
+             onClick={() => window.open('mailto:hallo@fabianschwander.ch', '_self')}>
           <EmailIcon className={'icon'}/>
           <p>E-Mail</p>
         </div>
 
         <div className={'link button horizontal-container'}
-             onClick={() => window.open('https://gitlab.fhnw.ch/FabianSchwander', '_blank')}>
+             onClick={() => window.open('https://github.com/fschwander', '_blank')}>
           <GitIcon className={'icon'}/>
           <p>Git</p>
         </div>
