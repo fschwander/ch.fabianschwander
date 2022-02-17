@@ -46,6 +46,6 @@ export const urlItems:Array<UrlItemsInterface> = [
     name: "Ponsyrus Genossenschaft",
     description: "Kleingenossenschaftliches Wohnen seit 1984. Landingpage für die Genossenschaft",
     tech: "React",
-    url: "https://www.ponsyrus.ch"
+    url: "http://www.ponsyrus.ch"
   }
 ];
