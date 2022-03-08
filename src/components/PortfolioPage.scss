@@ -8,51 +8,33 @@
     align-items: flex-end;
     justify-content: flex-end;
     padding: 1.5rem;
-    color: #4d4346;
-    background-image: linear-gradient(140deg, #ffffff 10%, #f8f8f8 35%, #dadada);
-
-    &:before {
-      content: '';
-      position: absolute;
-      right: .5rem;
-      bottom: .5em;
-      width: 2px;
-      height: 50%;
-      background-image: linear-gradient(to bottom, #66339999 10%, #ff149399);
-    }
-
-    &:after {
-      content: '';
-      position: absolute;
-      bottom: .5rem;
-      right: .5rem;
-      height: 2px;
-      width: 90%;
-      background-image: linear-gradient(to right, #00bfff99 10%, #ff149399);
-    }
+    background-image: linear-gradient(150deg, #558 10%, #112);
   }
 
   .ContactsTile {
     display: flex;
     flex-direction: column;
-    background-color: #444444;
-    background-image: linear-gradient(110deg, #111 10%, #555);
-    color: white;
+    justify-content: center;
+    background-image: linear-gradient(120deg, #112 50%, #558);
     padding: 1.5rem;
+
+    p {
+      transition: transform .3s ease-in-out;
+    }
 
     .icon {
       width: 3rem;
       height: 3rem;
       margin: .75rem 0;
       pointer-events: none;
-      transition: .5s ease-in-out;
+      transition: transform .5s ease-in-out, fill 5s ease-in-out;
 
       g {
         border-radius: 50%;
         pointer-events: all;
 
         path {
-          transition: fill .3s ease-in-out;
+          transition: fill .1s ease-in-out;
           fill: white;
         }
 
@@ -63,12 +45,17 @@
     }
 
     .link:hover {
-      color: #aaa;
+      //color: #ccc;
+
+      p {
+        transform: rotate(-4deg);
+        transform-origin: left center;
+      }
 
       .icon {
-        animation: rotate infinite 1s ease-in-out;
+        animation: rotate infinite 1.5s ease-in-out;
         path {
-          fill: #aaa;
+          fill: #ffe0f6;
         }
       }
 

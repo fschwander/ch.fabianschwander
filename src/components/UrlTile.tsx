@@ -10,7 +10,9 @@ export const UrlTile: React.FC<UrlTileProps> = props => {
   const isInitialMount = useRef(true);
   const {data} = props;
 
-  const colors = ['#ff1493', '#00bfff', '#663399'];
+  // const colors = ['#ff1493', '#00bfff', '#663399'];
+    // const colors = ['#002e96', '#80198c', '#ba0072', '#db2950', '#e55d2c', '#db8d00', '#bfb800'];
+    const colors = ['#7fc3c0', '#cfb845', '#141414', '#ff1493'];
   const animationInterval = 12 * 1000;
   const animationOffset = useRef(props.index === 0 ? 0 : Math.floor(Math.random() * animationInterval / 2));
 

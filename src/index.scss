@@ -3,7 +3,8 @@
 body {
   margin: 0;
   font-family: Futura, Arvo, serif;
-  color: #444;
+  color: #eee;
+  background-color: #111;
 
   h1 {
     text-transform: uppercase;
@@ -11,7 +12,11 @@ body {
 
   p {
     font-family: Avenir, 'Helvetica Neue', serif;
-    font-size: 14px;
+    font-size: 16px;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
   }
 
   .button {
