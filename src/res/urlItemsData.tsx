@@ -7,6 +7,18 @@ interface UrlItemsInterface {
 
 export const urlItems:Array<UrlItemsInterface> = [
   {
+    name: "Blick in die Zukunft. Mission Mars",
+    description: "Schweizer Radio und Fernsehen SRF. Storytellingdesk. Scrolly",
+    tech: "React, React-Scrollama, Lottie",
+    url: "https://www.srf.ch/wissen/weltraum/mission-mars-mond-mars-und-marco-sieber-reise-in-die-zukunft-der-raumfahrt"
+  },
+  {
+    name: "WM 2022 in Katar. Marktwert: Wertvolle Teams enttäuschen – Schweiz spielt über Wert",
+    description: "Schweizer Radio und Fernsehen SRF. Storytellingdesk",
+    tech: "React, D3",
+    url: "https://www.srf.ch/sport/fussball/fifa-wm-2022/wm-2022-in-katar-marktwert-wertvolle-teams-enttaeuschen-schweiz-spielt-ueber-wert"
+  },
+  {
     name: "Work Life Aargau",
     description: "Prototyp für ein exploratives Interaktionskonzept für den Kanton Aargau. (Desktop-Screens only)",
     tech: "React, Typescript",
