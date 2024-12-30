@@ -5,24 +5,24 @@ interface UrlItemsInterface {
   url: string
 }
 
-export const urlItems:Array<UrlItemsInterface> = [
+export const urlItems: Array<UrlItemsInterface> = [
   {
-    name: "Blick in die Zukunft. Mission Mars",
-    description: "Schweizer Radio und Fernsehen SRF. Storytellingdesk. Scrolly",
-    tech: "React, React-Scrollama, Lottie",
-    url: "https://www.srf.ch/wissen/weltraum/mission-mars-mond-mars-und-marco-sieber-reise-in-die-zukunft-der-raumfahrt"
+    name: "Süsse Verführung. So werden wir beim Einkaufen ausgetrickst",
+    description: "Schweizer Radio und Fernsehen SRF",
+    tech: "React, Three.js",
+    url: "https://www.srf.ch/sendungen/kassensturz-espresso/kassensturz/ueberzuckerte-lebensmittel-so-werden-wir-beim-einkaufen-ausgetrickst"
   },
   {
-    name: "WM 2022 in Katar. Marktwert: Wertvolle Teams enttäuschen – Schweiz spielt über Wert",
-    description: "Schweizer Radio und Fernsehen SRF. Storytellingdesk",
-    tech: "React, D3",
-    url: "https://www.srf.ch/sport/fussball/fifa-wm-2022/wm-2022-in-katar-marktwert-wertvolle-teams-enttaeuschen-schweiz-spielt-ueber-wert"
+    name: "DialektGuessr. Nur für Profis: Ordnen Sie 127 Dialekte der richtigen Region zu!",
+    description: "Schweizer Radio und Fernsehen SRF",
+    tech: "React, Audio",
+    url: "https://www.srf.ch/radio-srf-1/mundart/dialektguessr-nur-fuer-profis-ordnen-sie-127-dialekte-der-richtigen-region-zu"
   },
   {
-    name: "Work Life Aargau",
-    description: "Prototyp für ein exploratives Interaktionskonzept für den Kanton Aargau. (Desktop-Screens only)",
-    tech: "React, Typescript",
-    url: "https://work-life-aargau.fabianschwander.ch"
+    name: "«Baustelle Mensch». So verändert sich unser Körper.",
+    description: "Schweizer Radio und Fernsehen SRF",
+    tech: "React",
+    url: "https://www.srf.ch/news/gesellschaft/3d-modell-uns-waechst-eine-neue-arterie-und-bald-auch-ein-handy-daumen"
   },
   {
     name: "Tavolata für innere Werte",
@@ -41,6 +41,12 @@ export const urlItems:Array<UrlItemsInterface> = [
     description: "Produkte und Angebote von Isabel Akanji aus den Savogniner Bergen",
     tech: "React",
     url: "https://isabelakanji.ch"
+  },
+  {
+    name: "Work Life Aargau",
+    description: "Prototyp für ein exploratives Interaktionskonzept für den Kanton Aargau. (Desktop-Screens only)",
+    tech: "React, Typescript",
+    url: "https://work-life-aargau.fabianschwander.ch"
   },
   {
     name: "Das grosse Hofsterben",

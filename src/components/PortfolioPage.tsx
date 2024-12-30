@@ -1,6 +1,6 @@
 import './PortfolioPage.scss';
 import React from "react";
-import {urlItems} from '../res/urlItemsData';
+import {urlItems} from '../res/data';
 import {Container, Row} from 'reactstrap';
 import {UrlTile} from './UrlTile';
 import {TileContainer} from './TileContainer';
